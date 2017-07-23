@@ -1,6 +1,6 @@
 {
   "name": "raven-js-vuex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A plugin for Vue.js & Vuex applications using Sentry for exception tracking",
   "main": "dist/raven-js-vuex.js",
   "scripts": {
