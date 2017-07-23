@@ -12,13 +12,13 @@ This is a plugin for Vue.js & Vuex applications using Sentry for exception track
 
 Install `raven-js-vuex` via npm:
 
-```
+```sh
 $ npm install --save raven-js-vuex
 ```
 
 Import `RavenVuex` and add it to the `plugins` option of the `Vuex.Store` constructor:
 
-```
+```js
 import RavenVuex from 'raven-js-vuex'
 
 const store = new Vuex.Store({
