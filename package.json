@@ -1,12 +1,27 @@
 {
   "name": "raven-js-vuex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A plugin for Vue.js & Vuex applications using Sentry for exception tracking",
   "main": "dist/raven-js-vuex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c --name ravenjsvuex --input index.js --output dist/raven-js-vuex.js --format umd"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardkenfox/raven-js-vuex.git"
+  },
+  "keywords": [
+    "vuex",
+    "store",
+    "plugin",
+    "raven-js",
+    "sentry"
+  ],
+  "bugs": {
+    "url": "https://github.com/edwardkenfox/raven-js-vuex/issues"
+  },
+  "homepage": "https://github.com/edwardkenfox/raven-js-vuex#readme",
   "author": "Edward Fox",
   "license": "MIT",
   "dependencies": {
