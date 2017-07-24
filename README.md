@@ -28,7 +28,7 @@ const store = new Vuex.Store({
 ```
 
 Make sure all the other configurations for `raven-js` is done.
-When a Vue instance with the above store given causes an error during lifecycle hook or event emittion, the exception will be reported to Sentry with the below extra data:
+When a Vue instance with the above store given causes an error during lifecycle hook or event emission, the exception will be reported to Sentry with the below extra data:
 
 - componentName: The name of the component that caused the exception
 - data: The `$data` object of the component that caused the exception
